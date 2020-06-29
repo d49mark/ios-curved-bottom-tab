@@ -17,7 +17,8 @@ class TabBar: UITabBar {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = createPath()
         shapeLayer.strokeColor = UIColor.lightGray.cgColor
-        shapeLayer.fillColor = UIColor.white.cgColor
+        let tabBackColor=UIColor(red: 244.0/255.0, green: 242.0/255.0, blue:236.0/255.0, alpha: 1.0)
+        shapeLayer.fillColor = tabBackColor.cgColor
         shapeLayer.lineWidth = 1.0
         
         //The below 4 lines are for shadow above the bar. you can skip them if you do not want a shadow
