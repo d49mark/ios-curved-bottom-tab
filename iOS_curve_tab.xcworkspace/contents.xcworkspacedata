@@ -4,4 +4,10 @@
    <FileRef
       location = "container:iOS_curve_tab.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:iOS_curve_tab.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>

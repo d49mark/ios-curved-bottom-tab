@@ -1,0 +1,6 @@
+framework module Pods_iOS_curve_tab_iOS_curve_tabUITests {
+  umbrella header "Pods-iOS_curve_tab-iOS_curve_tabUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
