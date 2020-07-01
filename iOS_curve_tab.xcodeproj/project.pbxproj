@@ -11,7 +11,6 @@
 		B6A43808B8EACB9105E8B123 /* Pods_iOS_curve_tab_iOS_curve_tabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99243F896E896D486E0B6C99 /* Pods_iOS_curve_tab_iOS_curve_tabUITests.framework */; };
 		C5C1FE1F9F0AD6E8167882B9 /* Pods_iOS_curve_tabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B391E7E3E9A178CA329E4E /* Pods_iOS_curve_tabTests.framework */; };
 		DAE7D6CD24A7962800A01017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7D6CC24A7962800A01017 /* AppDelegate.swift */; };
-		DAE7D6CF24A7962800A01017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7D6CE24A7962800A01017 /* SceneDelegate.swift */; };
 		DAE7D6D124A7962800A01017 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7D6D024A7962800A01017 /* FirstViewController.swift */; };
 		DAE7D6D324A7962800A01017 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7D6D224A7962800A01017 /* SecondViewController.swift */; };
 		DAE7D6D624A7962800A01017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE7D6D424A7962800A01017 /* Main.storyboard */; };
@@ -51,7 +50,6 @@
 		DABE780C24AAE21D00429C44 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		DAE7D6C924A7962800A01017 /* iOS_curve_tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_curve_tab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE7D6CC24A7962800A01017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAE7D6CE24A7962800A01017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAE7D6D024A7962800A01017 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DAE7D6D224A7962800A01017 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DAE7D6D524A7962800A01017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				DAE7D6CC24A7962800A01017 /* AppDelegate.swift */,
-				DAE7D6CE24A7962800A01017 /* SceneDelegate.swift */,
 				DAE7D6D024A7962800A01017 /* FirstViewController.swift */,
 				DAE7D6D224A7962800A01017 /* SecondViewController.swift */,
 				DAE7D6D424A7962800A01017 /* Main.storyboard */,
@@ -390,7 +387,6 @@
 				DAE7D6FF24A7A26500A01017 /* ThirdViewController.swift in Sources */,
 				DAE7D6CD24A7962800A01017 /* AppDelegate.swift in Sources */,
 				DAE7D70124A7A96A00A01017 /* TabBarCtrl.swift in Sources */,
-				DAE7D6CF24A7962800A01017 /* SceneDelegate.swift in Sources */,
 				DAE7D70324A7A99F00A01017 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
