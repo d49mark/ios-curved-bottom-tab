@@ -66,7 +66,9 @@ class TabBar: UITabBar {
         addSubview(middleButton)
     }
     @objc func test() {
-        print("my name is jeff")
+        if let tabBarController = self.window!.rootViewController as? UITabBarController {
+            tabBarController.selectedIndex = 1
+        }
     }
     override func draw(_ rect: CGRect) {
         self.addShape()
